@@ -3,6 +3,8 @@
   position: relative;
   margin-left:5%;
   margin-right:5%;
+  width:"90%";
+  height:calc(33vh);
 }
 
 #wrap .img-list {
