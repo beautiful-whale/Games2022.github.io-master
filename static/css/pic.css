@@ -1,8 +1,8 @@
 #wrap {
   overflow: hidden;
   position: relative;
-  margin-left:50px;
-  margin-right:50px;
+  margin-left:5%;
+  margin-right:5%;
 }
 
 #wrap .img-list {
