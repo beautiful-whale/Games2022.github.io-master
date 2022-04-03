@@ -3,8 +3,8 @@
   position: relative;
   margin-left:5%;
   margin-right:5%;
-  width:"90%";
-  height:calc(45vh);
+  /* width:"90%";
+  height:calc(45vh); */
 }
 
 #wrap .img-list {
