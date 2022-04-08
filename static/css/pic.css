@@ -45,6 +45,16 @@
   right: 0;
 }
 
+#wrap a.left:hover {
+  background-color: rgb(231, 231, 231);
+  opacity: 0.6;
+}
+
+#wrap a.right:hover {
+  background-color: rgb(231, 231, 231);
+  opacity: 0.6;
+}
+
 .circle-list {
   display: flex;
   position: absolute;
