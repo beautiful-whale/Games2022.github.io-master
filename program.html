@@ -65,6 +65,14 @@
 	<script type="text/javascript" src="static/js/jquery.easing.1.3.js"></script> <!-- bx Slider -->
 	<script type="text/javascript" src="static/js/jquery.bxSlider.min.js"></script> <!-- bx Slider -->
 	<link rel="icon" href="images/favicon.png">
+
+	<style>
+		#pro-ul a:visited{color: #0e90d2;}
+		#pro-ul a:hover{color:#0e90d2;}
+		#pro-ul a:link{color:#0e90d2;}
+		#pro-ul a:active{color:#0e90d2;}
+		#head-a:hover{color:#0e90d2;}
+	</style>
 </head>
 
 <body>
@@ -85,8 +93,11 @@
 					<a href="program.html" style="font-size: 13pt; line-height:30px; color:#434343;">大会程序</a>
 				</li>
 				<li>
-					<a href="speaker.html" style="font-size: 13pt; line-height:30px; color:#434343;">大会讲者</a>
+					<a href="speaker.html" style="font-size: 13pt; line-height:30px; color:#434343;">专题论坛</a>
 				</li>
+				<li>
+                    <a href="tybg.html" style="font-size: 13pt; line-height:30px; color:#434343;">特邀报告</a>
+                </li>
 				<li>
 					<a href="registration.html" style="font-size: 13pt; line-height:30px; color:#434343;">会议注册</a>
 				</li>
@@ -112,38 +123,42 @@
 		<div class="container">
 			<div class="row header">
 
-				<div class="span10">
+				<div class="span10" style="width: 1500px;">
 					<!-- responsive dropdown menu -->
 					<div class="js-jquery-dropdown-wrapper">
-						<ul class="js-jquery-dropdown" style="font-size: 14pt">
+						<ul class="js-jquery-dropdown" style="font-size: 15pt; width: 1535px; margin-left: 160px">
 
-							<li>
-								<a href="home.html">首页</a>
-							</li>
-							<li>
-								<a href="committee.html">组织机构</a>
-							</li>
-							<li>
-								<a href="program.html">大会程序</a>
-							</li>
-							<li>
-								<a href="speaker.html">大会讲者</a>
-							</li>
-							<li>
-								<a href="registration.html">会议注册</a>
-							</li>
-							<!-- <li>
-								<a href="https://games.xgrids.cloud/">大会赛事</a>
-							</li> -->
-							<li>
-								<a href="venue.html">交通和酒店</a>
-							</li>
-							<li>
-								<a href="company.html">赞助单位</a>
-							</li>
-							<li>
-								<a href="photo.html">视频与照片</a>
-							</li>
+							
+                            <li>
+                                <a id="head-a" href="home.html">首页</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="committee.html">组织机构</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="program.html"  style="color:#0e90d2">大会程序</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="speaker.html">专题论坛</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="tybg.html">特邀报告</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="registration.html">会议注册</a>
+                            </li>
+                            <!-- <li>
+                                <a href="https://games.xgrids.cloud/">大会赛事</a>
+                            </li> -->
+                            <li>
+                                <a id="head-a" href="venue.html">交通和酒店</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="company.html">赞助单位</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="photo.html">视频与照片</a>
+                            </li>
 						</ul>
 
 					</div>
@@ -155,227 +170,220 @@
 
 	<div class="page-index-featured ">
 		<div class="container page-text-columns">
-			<div class="row" style=" box-shadow: darkgrey 0px 0px 30px 1px; border-radius:5px; margin:30px 0 0 0; ">
+			<div class="row" style=" box-shadow: darkgrey 0px 0px 30px 1px; border-radius:5px; margin:8px 0 0 0; ">
 
 				<div id="content">
-					<hr width="90%" color="#f3e549" size="8" style="margin:30px 0 0 5%;">
-					</hr>
-					<p style="color:#0e90d2;font-size:18pt;margin:30px 5% 0 5%; text-align:center;">计算机图形学与混合现实前沿研讨会
-						(GAMES 2022)日程（持续更新中）</p>
+					<div style="height:15px;"></div>
+					<p style="margin: 0 45px; font-size: 24px; font-weight: bold;">日程概要</p>
+					<hr width="90%" color="#f3e549" size="8" style="margin:10px 0 0 5%;"></hr>
+					<ul id="pro-ul" style="margin-left: 5.6%; margin-top: 11px; font-size: 18px;">
+						<a href="#first-day"><li style="margin-bottom: 10px;"> &nbsp;8月10日：GAMES执委会会议、 课程、 竞赛专题、CAD&CG专委会常委会议</li></a>
+						<a href="#second-day"><li style="margin-bottom: 10px;"> &nbsp;8月11日：大会报告、 专题论坛、 校企联航、 海报速览</li></a>
+						<a href="#third-day"><li> &nbsp;8月12日：大会报告、 专题论坛、 晨星启航论坛、 北斗沙龙</li></a>
+					</ul>
+
+					<!-- <hr width="90%" color="#f3e549" size="8" style="margin:12px 0 0 5%;"></hr> -->
+					<div style="height:15px;"></div>
+					<p style="margin: 0 45px; font-size: 24px; font-weight: bold;">详细日程</p>
+					<hr width="90%" color="#f3e549" size="8" style="margin:10px 0 0 5%;"></hr>
+					<!-- <p style="color:#0e90d2;font-size:18pt;margin:30px 5% 0 5%; text-align:center;">计算机图形学与混合现实前沿研讨会
+						(GAMES 2022)日程</p> -->
 					<!-- <p style="color:#0e90d2;font-size:13pt;margin:30px 5% 0 5%;text-align:center;">2020.5.15（星期五）</p> -->
 
-					<div class="table-c">
-						<table style="border: #FFFFFF;">
+					<div class="table-c" style="margin-top: -20px;">
+						<table>
 							<tr>
 								<!-- #84d0ff -->
-								<th style="text-align:center;font-size:26px;font-style:normal;font-weight:400;background-color: #2070b0; border: #FFFFFF;"
-									colspan="4">
+								<th style="text-align:center;font-size:25px;font-style:normal;font-weight:400;background-color: #2070b0; border: 2px solid white"
+									colspan="4" height=50px id="first-day">
 									<label></label>
 									<!-- <font color="#FFFFFF">2022年6月10日（星期五）</font> -->
-									<font color="#FFFFFF">第0天</font>
+									<font color="#FFFFFF">2022年8月10日，星期三</font>
 									<label></label>
 								</th>
 							</tr>
 
 							<tr>
-								<th height=20px width="20%" style="background-color:#e2f2fd; border: #FFFFFF;">12:00 - 13:30</th>
-								<th width="40%" style="background-color:#e2f2fd; border: #FFFFFF;">Games执委会会议</th>
-								<th width="30%" style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th width="10%" style="background-color:#e2f2fd; border: #FFFFFF;">会议室1</th>
+								<th height=35px width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">12:00 - 13:30</th>
+								<th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;GAMES执委会会议</th>
+								<th width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;会议室1</th>
 							</tr>
 							<tr>
-								<th height=20px width="20%" style="background-color:#e2f2fd; border: #FFFFFF;">13:30 - 17:00</th>
-								<th width="40%" style="background-color:#e2f2fd; border: #FFFFFF;">课程1</th>
-								<th width="30%" style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th width="10%" style="background-color:#e2f2fd; border: #FFFFFF;">会议室1</th>
+								<th height=35px width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">13:30 - 17:00</th>
+								<th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;课程1</th>
+								<th width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;会议室1</th>
 							</tr>
 
 							<tr>
-								<th height=20px width="20%" style="background-color:#e2f2fd;  border: #FFFFFF;">13:30 - 17:00</th>
-								<th width="40%" style="background-color:#e2f2fd;  border: #FFFFFF;">课程2</th>
-								<th width="30%" style="background-color:#e2f2fd;  border: #FFFFFF;"></th>
-								<th width="10%" style="background-color:#e2f2fd;  border: #FFFFFF;">会议室2</th>
+								<th height=35px width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">13:30 - 17:00</th>
+								<th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;课程2</th>
+								<th width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;会议室2</th>
 							</tr>
 
 							<tr>
-								<th height=20px width="20%" style="background-color:#e2f2fd; border-top-width: 0.6px;  border: #FFFFFF;">13:30 - 17:00</th>
-								<th width="40%" style="background-color:#e2f2fd; border-top-width: 0.6px;  border: #FFFFFF;">竞赛专题</th>
-								<th width="30%" style="background-color:#e2f2fd; border-top-width: 0.6px;  border: #FFFFFF;"></th>
-								<th width="10%" style="background-color:#e2f2fd; border-top-width: 0.6px;  border: #FFFFFF;">会议室3</th>
+								<th height=35px width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">13:30 - 17:00</th>
+								<th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;竞赛专题</th>
+								<th width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;会议室3</th>
 							</tr>
 
 							<tr>
-								<th height=20px width="20%" style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">20:00 - 21:30</th>
-								<th width="40%" style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">CAD&CG专委会常委会议</th>
-								<th width="30%" style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;"></th>
-								<th width="10%" style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">会议室1</th>
+								<th height=35px width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">20:00 - 21:30</th>
+								<th width="50%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;CAD&CG专委会常委会议</th>
+								<th width="25%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;会议室1</th>
 							</tr>
 
 							<tr>
-								<th style="text-align:center;font-size:26px;font-style:normal;font-weight:400;background-color:#2070b0; border: #FFFFFF;"
-									colspan="4">
+								<th style="text-align:center;font-size:25px;font-style:normal;font-weight:400;background-color:#2070b0; border: 2px solid white;"
+									colspan="4" height=50px id="second-day">
 									<label></label>
-									<font color="#FFFFFF">第1天</font>
+									<font color="#FFFFFF">2022年8月11日，星期四</font>
 									<label></label>
 								</th>
 							</tr>
 
 							<tr>
 								<!-- #FFB6C1 -->
-								<th height=20px style="background-color:#9bd3f8; border: #FFFFFF;">8:00 - 8:20</th>
-								<th colspan=3 style="background-color:#9bd3f8; border: #FFFFFF;">开幕式</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">8:00 - 8:20</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;开幕式</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">8:20 - 9:00</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大会报告1</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">8:20 - 9:00</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大会报告1</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">9:00 - 10:15</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">专题论坛1</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">9:00 - 10:15</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;专题论坛1</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
 								<!-- #B4EEB4 -->
-								<th height=20px style="background-color:#FFFFFF; border: #FFFFFF;">10:15 - 10:45</th>
-								<th colspan=3 style="background-color:#FFFFFF; border: #FFFFFF;">合影&茶歇</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px;">10:15 - 10:45</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;合&emsp;影&emsp;&&emsp;茶&emsp;歇</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">10:45 - 12:00</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">专题论坛2</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px;">10:45 - 12:00</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;专题论坛2</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 
-							<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">12:00 - 13:30</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">中餐</th>
+							<th height=35px style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px;">12:00 - 13:30</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;中&emsp;餐</th>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">13:30 - 14:10</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大会报告2</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px;">13:30 - 14:10</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;大会报告2</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">14:10 - 15:30</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">校企联航（研究生在企业的成长经验分享）</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white;  font-size:18px;">14:10 - 15:30</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;校企联航（研究生在企业的成长经验分享）</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">15:10 - 15:30</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">茶歇</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">15:10 - 15:30</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;茶&emsp;歇</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">15:30 - 16:45</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">专题论坛3</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">15:30 - 16:45</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;专题论坛3</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">16:45 - 18:00</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">海报速览</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">16:45 - 18:00</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;海报速览</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">18:30 - 20:30</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">会议晚宴</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">18:30 - 20:30</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;晚&emsp;餐</th>
 							</tr>
 
 
 
 							<tr>
-								<th style="text-align:center;font-size:26px;font-style:normal;font-weight:400;background-color:#2070b0; border: #FFFFFF;"
-									colspan="4">
+								<th style="text-align:center;font-size:25px;font-style:normal;font-weight:400;background-color:#2070b0; border: 2px solid white;"
+									colspan="4" height="50px" id="third-day">
 									<label></label>
-									<font color="#FFFFFF">第2天</font>
+									<font color="#FFFFFF">2022年8月12日，星期五</font>
 									<label></label>
 								</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">8:00 - 8:40</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大会报告3</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">8:00 - 8:40</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大会报告3</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">8:40 - 9:55</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">专题论坛4</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">8:40 - 9:55</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;专题论坛4</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">9:55 - 10:20</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">茶歇</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">9:55 - 10:20</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;茶&emsp;歇</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">10:20 - 12:00</th>
-								<th style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">晨星启航论坛（优秀研究生成长师生谈）</th>
-								<th style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd;   border: 2px solid white; font-size:18px;">10:20 - 12:00</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;晨星启航论坛（优秀研究生成长师生谈）</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">12:00 - 13:30</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">中餐</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">12:00 - 13:30</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;中&emsp;餐</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">13:30 - 14:15</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">专题论坛5</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd;  border: 2px solid white; font-size:18px;">13:30 - 14:15</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;专题论坛5</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border: #FFFFFF;">14:15 - 15:30</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">专题论坛6</th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">14:15 - 15:30</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;专题论坛6</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">15:30 - 16:00</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">茶歇</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">15:30 - 16:00</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;茶&emsp;歇</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">16:00 - 17:30</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">主题论坛</th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;"></th>
-								<th style="background-color:#e2f2fd; border-top-width: 0.6px; border: #FFFFFF;">大厅</th>
+								<th height=35px style="background-color:#e2f2fd;  border: 2px solid white; font-size:18px;">16:00 - 17:30</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;主题论坛</th>
+								<th style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;大厅</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#9bd3f8; border: #FFFFFF;">17:30 - 18:00</th>
-								<th colspan=3 style="background-color:#9bd3f8; border: #FFFFFF;">闭幕式</th>
+								<th height=35px style="background-color:#e2f2fd; border: 2px solid white; font-size:18px;">17:30 - 18:00</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;闭幕式</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">18:00 - 20:00</th>
-								<th colspan=3 style="background-color:#FFFFFF;  border-top-width: 0.6px; border: #FFFFFF;">晚餐</th>
+								<th height=35px style="background-color:#e2f2fd;   border: 2px solid white; font-size:18px;">18:00 - 20:00</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;晚&emsp;餐</th>
 							</tr>
 
 							<tr>
-								<th height=20px style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">19:00 - 21:00</th>
-								<th colspan=3 style="background-color:#e2f2fd;  border-top-width: 0.6px; border: #FFFFFF;">北斗沙龙</th>
+								<th height=35px style="background-color:#e2f2fd;  border: 2px solid white; font-size:18px;">19:00 - 21:00</th>
+								<th colspan=3 style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; text-align: left;">&emsp;北斗沙龙</th>
 							</tr>
 
 

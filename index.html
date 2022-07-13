@@ -50,6 +50,9 @@
     <script type="text/javascript" src="static/js/jquery.easing.1.3.js"></script> <!-- bx Slider -->
     <script type="text/javascript" src="static/js/jquery.bxSlider.min.js"></script> <!-- bx Slider -->
     <link rel="icon" href="images/favicon.png">
+    <style>
+		#head-a:hover{color:#0e90d2;}
+	</style>
  
 
 <body>
@@ -72,7 +75,10 @@
                     <a href="program.html" style="font-size: 13pt; line-height:30px; color:#434343;">大会程序</a>
                 </li>
                 <li>
-                    <a href="speaker.html" style="font-size: 13pt; line-height:30px; color:#434343;">大会讲者</a>
+                    <a href="speaker.html" style="font-size: 13pt; line-height:30px; color:#434343;">专题论坛</a>
+                </li>
+                <li>
+                    <a href="tybg.html" style="font-size: 13pt; line-height:30px; color:#434343;">特邀报告</a>
                 </li>
                 <li>
                     <a href="registration.html" style="font-size: 13pt; line-height:30px; color:#434343;">会议注册</a>
@@ -98,37 +104,41 @@
         <div class="container">
             <div class="row header">
 
-                <div class="span10">
+                <div class="span10" style="width: 1500px;">
                     <!-- responsive dropdown menu -->
                     <div class="js-jquery-dropdown-wrapper">
-                        <ul class="js-jquery-dropdown" style="font-size: 14pt">
+                        <ul class="js-jquery-dropdown" style="font-size: 15pt; width: 1535px; margin-left: 160px">
 
+                           
                             <li>
-                                <a href="home.html">首页</a>
+                                <a id="head-a" href="home.html" style="color:#0e90d2">首页</a>
                             </li>
                             <li>
-                                <a href="committee.html">组织机构</a>
+                                <a id="head-a" href="committee.html">组织机构</a>
                             </li>
                             <li>
-                                <a href="program.html">大会程序</a>
+                                <a id="head-a" href="program.html">大会程序</a>
                             </li>
                             <li>
-                                <a href="speaker.html">大会讲者</a>
+                                <a id="head-a" href="speaker.html">专题论坛</a>
                             </li>
                             <li>
-                                <a href="registration.html">会议注册</a>
+                                <a id="head-a" href="tybg.html">特邀报告</a>
+                            </li>
+                            <li>
+                                <a id="head-a" href="registration.html">会议注册</a>
                             </li>
                             <!-- <li>
                                 <a href="https://games.xgrids.cloud/">大会赛事</a>
                             </li> -->
                             <li>
-                                <a href="venue.html">交通和酒店</a>
+                                <a id="head-a" href="venue.html">交通和酒店</a>
                             </li>
                             <li>
-                                <a href="company.html">赞助单位</a>
+                                <a id="head-a" href="company.html">赞助单位</a>
                             </li>
                             <li>
-                                <a href="photo.html">视频与照片</a>
+                                <a id="head-a" href="photo.html">视频与照片</a>
                             </li>
                         </ul>
                     </div>
@@ -144,7 +154,7 @@
     <div class="page-index-featured ">
         <div class="container">
 
-            <div class="row" style=" box-shadow: darkgrey 0px 0px 30px 1px; margin:30px 0 0 0; ">
+            <div class="row" style=" box-shadow: darkgrey 0px 0px 30px 1px; margin:8px 0 0 0; ">
 
                 <!--<img border="0" src="static/img/Games2022_csu.jpg" width="90%" style="margin:30px 0 0px 5%; ">-->
                 <div id="wrap" width="860px" height="286px"> 
@@ -292,7 +302,7 @@
                 <div id="content">
                     <hr>
                     <p style="font-size:16pt; margin:15px 5% 0px 5%; color:#0e90d2;">最新消息</p>
-                    <ul style="margin:15px 5% 0px 5%; line-height:30px;">
+                    <!-- <ul style="margin:15px 5% 0px 5%; line-height:30px;">
                         <li>
                             <p align="justify" style="font-size: 13pt; "><a>2022年5月6日</a>：因疫情原因，大会拟延期至8月中旬</p>
                         </li>
@@ -305,8 +315,36 @@
                         <li>
                             <p align="justify" style="font-size: 13pt; "><a>2021年10月30日</a>：网站开通</p>
                         </li>
+                    </ul> -->
+
+                    <ul style="margin:15px 5% 0px 5%; font-size: 18px;">
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.06.11</a>：发布专题论坛：CAD/CAE/CAM工业软件
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.06.08</a>：发布专题论坛：实时物理仿真与人工智能
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.06.05</a>：发布专题论坛：如何构建真实感的数字世界：渲染技术的最新进展
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.06.03</a>：发布专题论坛：三维视觉与无人系统前沿进展与应用
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.05.02</a>：<a href="program.html">发布会议日程</a>
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2022.04.24</a>：<a href="company.html">赞助商信息更新</a>
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2021.12.04</a>：<a href="company.html">诚招赞助伙伴</a>
+                        </li>
+                        <li style="margin-bottom: 7px;">
+                            <a>2021.10.30</a>：网站开通
+                        </li>
                     </ul>
-                    <hr>
+
+                    <!-- <hr>
                     <p style="font-size:16pt; text-align:center; margin:15px 5% 0px 5%; color:#0e90d2;">
                         关于延期举办第七届计算机图形学与混合现实前沿研讨会（GAMES）的通知</p>
                     <p
@@ -324,7 +362,7 @@
                     <p
                         style="font-size:13pt; margin:5px 5% 0px 5%; text-indent:2em;line-height:30px; text-align:justify;">
                         做为计算机辅助设计与图形学专业委员会的著名特色活动，本次会议将围绕青年教师成长与研究生培养举办“北斗沙龙”、“研究生培养论坛”等活动，就数字人、真实感渲染、实时物理仿真、可视化、三维视觉、工业软件等前沿话题举行学术界与产业界的联席研讨，会议期间还将举行专题挑战赛、顶会顶刊内容交流、会前课程等环节，将为图形图像、计算机辅助设计、可视分析等领域的专家学者和产业界同仁提供展示创新成果、探讨未来发展的平台。
-                    </p>
+                    </p> -->
                     <hr>
                     <p style="font-size:16pt; text-align:center; margin:15px 5% 0px 5%; color:#0e90d2;">
                         第七届计算机图形学与混合现实前沿研讨会</p>
@@ -346,7 +384,7 @@
                         将重磅推出“北斗计划”之青年学者成长指导、“晨星启航”之研究生培养论坛、优秀成果交流、会前课程、技术论坛等特色活动，
                         将为图形学与混合现实等相关领域的专家学者、产业界同仁和学生提供展示创新成果，传承研究经验，探讨未来发展的平台。
                         研讨会通过产业前沿技术论坛、大会特邀企业招聘宣讲之夜等特色活动，提高会议服务能力，为产学研深入融合提供更有效的交流和人才共享平台。</p>
-                    <p style="font-size:13pt; margin:0px 5% 0px 5%; text-indent:2em;line-height:30px;">时间：2022年8月中旬
+                    <p style="font-size:13pt; margin:0px 5% 0px 5%; text-indent:2em;line-height:30px;">时间：2022年8月10日-8月12日
                     </p>
                     <p style="font-size:13pt; margin:0px 5% 0px 5%; text-indent:2em;line-height:30px;">地点：中南大学，湖南长沙
                     </p>
