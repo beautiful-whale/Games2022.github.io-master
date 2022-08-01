@@ -51,6 +51,26 @@
     <link rel="icon" href="images/favicon.png">
     <style>
 		#head-a:hover{color:#0e90d2;}
+
+        .onlywap {
+			display: inline;
+		}
+
+		@media (min-width: 950px) {
+			.onlywap {
+				display: none;
+			}
+		}
+
+		.onlymobile {
+			display: none;
+		}
+
+		@media (min-width: 950px) {
+			.onlymobile {
+				display: inline;
+			}
+		}
 	</style>
 </head>
 
@@ -181,7 +201,7 @@
                     <img src="static/img/111.png" style="height: 330px;">
                     <hr width="90%" color="#f3e549" size="8" style="margin:0px 0 30px 5%;">
                     </hr> -->
-
+                   
                     <div style="height:15px;"></div>
 					<p style="margin: 0 45px; font-size: 24px; font-weight: bold;">会议信息和联系方式</p>
                     <hr width="90%" color="#f3e549" size="8" style="margin:10px 0 0 5%;"></hr>
@@ -191,12 +211,13 @@
 						<li style="margin-bottom: 10px;"> &nbsp;联系邮箱：games2022@csu.edu.cn</li>
                         <li style="margin-bottom: 10px;"> &nbsp;联系电话：夏老师（18692258120）、张老师（19118867726）</li>
 					</ul>
-
+                    
                     <div style="height:15px;"></div>
                     <p style="margin: 0 45px; font-size: 24px; font-weight: bold;">注册费用（单位：元）</p>
                     <hr width="90%" color="#f3e549" size="8" style="margin:10px 0 0 5%;"></hr>
-                    <div class="table-c" style="margin-top: 10px;" align="center">
-						<table width="700px">
+                    <!-- 电脑版 -->
+                    <div class="table-c onlymobile" style="margin-top: 10px;" align="center">
+						<table width="70%">
                             <tr>
 								<th height=70px width="33%" style="background-color:#2070b0; border: 2px solid white; font-size:20px; color: white;">参会者身份</th>
 								<th width="33%" style="background-color:#2070b0; border: 2px solid white; font-size:20px; color: white;">04.11~08.04</th>
@@ -221,6 +242,36 @@
 								<th height=70px width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:18px; font-weight: normal;">非会员学生</th>
 								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:20px; font-weight: normal">700</th>
 								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:20px; font-weight: normal;">800</th>
+							</tr>
+                        </table>
+                    </div>
+                    <!-- 手机版 -->
+                    <div class="table-c onlywap" style="margin-top: 10px;" align="center">
+						<table width="80%">
+                            <tr>
+								<th height=70px width="33%" style="background-color:#2070b0; border: 2px solid white; font-size:15px; color: white;">参会者身份</th>
+								<th width="20%" style="background-color:#2070b0; border: 2px solid white; font-size:15px; color: white;">04.11~08.04</th>
+								<th width="20%" style="background-color:#2070b0; border: 2px solid white; font-size:15px; color: white;">08.05~08.12</th>
+							</tr>
+							<tr>
+								<th height=70px width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">CCF专业会员</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal">800</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">900</th>
+							</tr>
+                            <tr>
+								<th height=70px width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">CCF学生会员</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal">500</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">600</th>
+							</tr>
+                            <tr>
+								<th height=70px width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">非会员专业人员</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal">1100</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">1200</th>
+							</tr>
+                            <tr>
+								<th height=70px width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">非会员学生</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal">700</th>
+								<th width="33%" style="background-color:#e2f2fd; border: 2px solid white; font-size:15px; font-weight: normal;">800</th>
 							</tr>
                         </table>
                     </div>
