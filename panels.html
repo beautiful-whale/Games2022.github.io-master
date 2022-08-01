@@ -129,6 +129,26 @@
 		#head-a:hover {
 			color: #0e90d2;
 		}
+
+		.onlywap {
+			display: inline;
+		}
+
+		@media (min-width: 950px) {
+			.onlywap {
+				display: none;
+			}
+		}
+
+		.onlymobile {
+			display: none;
+		}
+
+		@media (min-width: 950px) {
+			.onlymobile {
+				display: inline;
+			}
+		}
 	</style>
 </head>
 
@@ -282,40 +302,97 @@
 						style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
 						<strong>专题论坛1：如何构建真实感的数字世界：渲染技术的最新进展</strong>
 					</p>
-					<table width="90%" style="margin:30px 0 0 5%;">
-						<tbody>
-							<tr>
-								<th colspan="4"
-									style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									<strong>论坛讲者</strong>（按姓氏拼音排序）
-								</th>
-							</tr>
-							<tr>
-								<th width="25%"><a href="#wangrui"><img src="static/img/speaker/2-1.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#guojie"><img src="static/img/speaker/2-2.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#huoyuchi"><img src="static/img/speaker/2-3.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#wangbeibei"><img src="static/img/speaker/2-4.png"
-											height="200px" width="auto"></a></th>
-							</tr>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="4"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="25%"><a href="#wangrui"><img src="static/img/speaker/2-1.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#guojie"><img src="static/img/speaker/2-2.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#huoyuchi"><img src="static/img/speaker/2-3.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#wangbeibei"><img src="static/img/speaker/2-4.png"
+												height="200px" width="auto"></a></th>
+								</tr>
 
-							<tr>
-								<th><a target="_blank" style="color:#777777;">王锐(论坛主席)</a></th>
-								<th><a target="_blank" style="color:#777777;">过洁</a></th>
-								<th><a target="_blank" style="color:#777777;">霍宇驰</a></th>
-								<th><a target="_blank" style="color:#777777;">王贝贝</a></th>
-							</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">王锐(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">过洁</a></th>
+									<th><a target="_blank" style="color:#777777;">霍宇驰</a></th>
+									<th><a target="_blank" style="color:#777777;">王贝贝</a></th>
+								</tr>
 
-							<tr>
-								<th class="th_school">浙江大学</th>
-								<th class="th_school">南京大学</th>
-								<th class="th_school">浙江大学</th>
-								<th class="th_school">南京理工大学</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">南京大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">南京理工大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="2"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="50%"><a href="#wangrui"><img src="static/img/speaker/2-1.png"
+												height="200px" width="auto"></a></th>
+									<th width="50%"><a href="#guojie"><img src="static/img/speaker/2-2.png"
+												height="200px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">王锐(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">过洁</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">南京大学</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-20px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="2"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+									</th>
+								</tr>
+								<tr>
+									<th width="50%"><a href="#huoyuchi"><img src="static/img/speaker/2-3.png"
+												height="200px" width="auto"></a></th>
+									<th width="50%"><a href="#wangbeibei"><img src="static/img/speaker/2-4.png"
+												height="200px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">霍宇驰</a></th>
+									<th><a target="_blank" style="color:#777777;">王贝贝</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">南京理工大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -411,44 +488,105 @@
 						style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
 						<strong>专题论坛3：CAD/CAE/CAM工业软件</strong>
 					</p>
-					<table width="90%" style="margin:30px 0 0 5%;">
-						<tbody>
-							<tr>
-								<th colspan="5"
-									style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									<strong>论坛讲者</strong>（按姓氏拼音排序）
-								</th>
-							</tr>
-							<tr>
-								<th width="20%"><a href="#chenzhonggui"><img src="static/img/speaker/4-1.png"
-											height="200px" width="auto"></a></th>
-								<th width="20%"><a href="#shenliyong"><img src="static/img/speaker/4-2.png"
-											height="200px" width="auto"></a></th>
-								<th width="20%"><a href="#wanghu"><img src="static/img/speaker/4-3.png" height="200px"
-											width="auto"></a></th>
-								<th width="20%"><a href="#xugang"><img src="static/img/speaker/4-4.png" height="200px"
-											width="auto"></a></th>
-								<th width="20%"><a href="#liangrui"><img src="static/img/speaker/4-5.png" height="200px"
-											width="auto"></a></th>
-							</tr>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="5"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="20%"><a href="#chenzhonggui"><img src="static/img/speaker/4-1.png"
+												height="200px" width="auto"></a></th>
+									<th width="20%"><a href="#shenliyong"><img src="static/img/speaker/4-2.png"
+												height="200px" width="auto"></a></th>
+									<th width="20%"><a href="#wanghu"><img src="static/img/speaker/4-3.png"
+												height="200px" width="auto"></a></th>
+									<th width="20%"><a href="#xugang"><img src="static/img/speaker/4-4.png"
+												height="200px" width="auto"></a></th>
+									<th width="20%"><a href="#liangrui"><img src="static/img/speaker/4-5.png"
+												height="200px" width="auto"></a></th>
+								</tr>
 
-							<tr>
-								<th><a target="_blank" style="color:#777777;">陈中贵(论坛主席)</a></th>
-								<th><a target="_blank" style="color:#777777;">申立勇</a></th>
-								<th><a target="_blank" style="color:#777777;">王琥</a></th>
-								<th><a target="_blank" style="color:#777777;">徐岗</a></th>
-								<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-							</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">陈中贵(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">申立勇</a></th>
+									<th><a target="_blank" style="color:#777777;">王琥</a></th>
+									<th><a target="_blank" style="color:#777777;">徐岗</a></th>
+									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
+								</tr>
 
-							<tr>
-								<th class="th_school">厦门大学</th>
-								<th class="th_school">中国科学院大学<br>数学科学学院/密码学院</th>
-								<th class="th_school">湖南大学</th>
-								<th class="th_school">杭州电子科技大学计算机学院</th>
-								<th class="th_school">中望软件CAE研发中心副总监</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">厦门大学</th>
+									<th class="th_school">中国科学院大学</th>
+									<th class="th_school">湖南大学</th>
+									<th class="th_school">杭州电子科技大学计算机学院</th>
+									<th class="th_school">中望软件CAE研发中心副总监</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="3"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="33.3%"><a href="#chenzhonggui"><img src="static/img/speaker/4-1.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#shenliyong"><img src="static/img/speaker/4-2.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#wanghu"><img src="static/img/speaker/4-3.png"
+												height="130px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">陈中贵(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">申立勇</a></th>
+									<th><a target="_blank" style="color:#777777;">王琥</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">厦门大学</th>
+									<th class="th_school">中国科学院大学</th>
+									<th class="th_school">湖南大学</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-20px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="2"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+									</th>
+								</tr>
+								<tr>
+									<th width="33.3%"><a href="#xugang"><img src="static/img/speaker/4-4.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#liangrui"><img src="static/img/speaker/4-5.png"
+												height="130px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">徐岗</a></th>
+									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">杭州电子科技大学计算机学院</th>
+									<th class="th_school">中望软件CAE研发中心副总监</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -458,7 +596,7 @@
 						</p>
 					</div>
 					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="chenzhonggui" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="chenzhonggui" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：陈中贵</li>
 						<li style="font-size: 13pt; line-height:31px;">
 							<strong>个人简介</strong>：陈中贵，厦门大学信息学院教授、博士生导师，中国计算机学会高级会员、中国图象图形学学会高级会员。2009年6月在浙江大学获博士学位；2009年-2010年在香港大学计算机系从事博士后研究；2017年-2018年在美国卡耐基梅陇大学访学。主要从事三维几何建模与处理方面研究，已发表学术论文五十余篇，其中多篇论文发表在图形学领域重要期刊如ACM
@@ -490,7 +628,7 @@
 						</li>
 					</ul>
 					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="wanghu" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="wanghu" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：王琥</li>
 						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：面向行业的自主化智能设计平台开发</li>
 						<li style="font-size: 13pt; line-height:31px;">
@@ -507,7 +645,7 @@
 						</li>
 					</ul>
 					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="xugang" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="xugang" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：徐岗</li>
 						<li style="font-size: 13pt; line-height:40px;"><strong>报告题目</strong>：iGame
 							v1.0:基于等几何分析的建模仿真优化一体化软件平台</li>
@@ -549,48 +687,113 @@
 						style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
 						<strong>专题论坛4：数据与图形融合发展机遇和挑战</strong>
 					</p>
-					<table width="90%" style="margin:30px 0 0 5%;">
-						<tbody>
-							<tr>
-								<th colspan="6"
-									style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									<strong>论坛讲者</strong>（按姓氏拼音排序）
-								</th>
-							</tr>
-							<tr>
-								<th width="16.6%"><a href="#wangyunhai"><img src="static/img/speaker/5-1.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#lichenhui"><img src="static/img/speaker/5-6.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#qinhongxing"><img src="static/img/speaker/5-3(1).png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#shilei"><img src="static/img/speaker/5-2.png" height="150px"
-											width="auto"></a></th>
-								<th width="16.6%"><a href="#zengwei"><img src="static/img/speaker/5-5.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#zhouzhiguang"><img src="static/img/speaker/5-4.png"
-											height="150px" width="auto"></a></th>
-							</tr>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="6"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="16.6%"><a href="#wangyunhai"><img src="static/img/speaker/5-1.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#lichenhui"><img src="static/img/speaker/5-6.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#qinhongxing"><img src="static/img/speaker/5-3(1).png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#shilei"><img src="static/img/speaker/5-2.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#zengwei"><img src="static/img/speaker/5-5.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#zhouzhiguang"><img src="static/img/speaker/5-4.png"
+												height="150px" width="auto"></a></th>
+								</tr>
 
-							<tr>
-								<th><a target="_blank" style="color:#777777;">汪云海(论坛主席)</a></th>
-								<th><a target="_blank" style="color:#777777;">李晨辉</a></th>
-								<th><a target="_blank" style="color:#777777;">秦红星</a></th>
-								<th><a target="_blank" style="color:#777777;">时磊</a></th>
-								<th><a target="_blank" style="color:#777777;">曾伟</a></th>
-								<th><a target="_blank" style="color:#777777;">周志光</a></th>
-							</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">汪云海(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">李晨辉</a></th>
+									<th><a target="_blank" style="color:#777777;">秦红星</a></th>
+									<th><a target="_blank" style="color:#777777;">时磊</a></th>
+									<th><a target="_blank" style="color:#777777;">曾伟</a></th>
+									<th><a target="_blank" style="color:#777777;">周志光</a></th>
+								</tr>
 
-							<tr>
-								<th class="th_school">山东大学</th>
-								<th class="th_school">华东师范大学</th>
-								<th class="th_school">重庆大学</th>
-								<th class="th_school">北京航空航天大学</th>
-								<th class="th_school">香港科技大学（广州）</th>
-								<th class="th_school">杭州电子科技大学</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">山东大学</th>
+									<th class="th_school">华东师范大学</th>
+									<th class="th_school">重庆大学</th>
+									<th class="th_school">北京航空航天大学</th>
+									<th class="th_school">香港科技大学（广州）</th>
+									<th class="th_school">杭州电子科技大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="3"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="33.3%"><a href="#wangyunhai"><img src="static/img/speaker/5-1.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#lichenhui"><img src="static/img/speaker/5-6.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#qinhongxing"><img src="static/img/speaker/5-3(1).png"
+												height="130px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">汪云海(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">李晨辉</a></th>
+									<th><a target="_blank" style="color:#777777;">秦红星</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">山东大学</th>
+									<th class="th_school">华东师范大学</th>
+									<th class="th_school">重庆大学</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-20px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="3"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+									</th>
+								</tr>
+								<tr>
+									<th width="33.3%"><a href="#shilei"><img src="static/img/speaker/5-2.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#zengwei"><img src="static/img/speaker/5-5.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#zhouzhiguang"><img src="static/img/speaker/5-4.png"
+												height="130px" width="auto"></a></th>
+								</tr>
+
+								<tr>
+									<th><a target="_blank" style="color:#777777;">时磊</a></th>
+									<th><a target="_blank" style="color:#777777;">曾伟</a></th>
+									<th><a target="_blank" style="color:#777777;">周志光</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">北京航空航天大学</th>
+									<th class="th_school">香港科技大学（广州）</th>
+									<th class="th_school">杭州电子科技大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -665,7 +868,7 @@
 						</li>
 					</ul>
 					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="zhouzhiguang" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="zhouzhiguang" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：周志光</li>
 						<div style="height:5px"></div>
 						<li style="font-size: 13pt; line-height:31px;">
@@ -684,44 +887,93 @@
 						style="color:#0e90d2;font-size:22pt;margin:30px 5% 0 5%; text-align:center; line-height:40px;">
 						<strong>专题论坛5：三维视觉与无人系统前沿进展与应用</strong>
 					</p>
-					<table width="90%" style="margin:30px 0 0 5%;">
-						<tbody>
-							<tr>
-								<th colspan="5"
-									style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
-									<strong>论坛讲者</strong>（按姓氏拼音排序）
-								</th>
-							</tr>
-							<tr>
-								<th width="25%"><a href="#lindi"><img src="static/img/speaker/1-1.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#guoyulan"><img src="static/img/speaker/1-2.png" height="200px"
-											width="auto"></a></th>
-								<!-- <th width="20%"><a href="#lucewu"><img src="static/img/speaker/1-3.png" height="150px"
-											width="auto"></a></th> -->
-								<th width="25%"><a href="#xukai"><img src="static/img/speaker/1-6.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#zhupengfei"><img src="static/img/speaker/1-4.png"
-											height="200px" width="auto"></a></th>
-							</tr>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="4"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="25%"><a href="#lindi"><img src="static/img/speaker/1-1.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#guoyulan"><img src="static/img/speaker/1-2.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#xukai"><img src="static/img/speaker/1-6.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#zhupengfei"><img src="static/img/speaker/1-4.png"
+												height="200px" width="auto"></a></th>
+								</tr>
 
-							<tr>
-								<th><a target="_blank" style="color:#777777;">林迪(论坛主席)</a></th>
-								<th><a target="_blank" style="color:#777777;">郭裕兰</a></th>
-								<!-- <th><a target="_blank" style="color:#777777;">卢策吾</a></th> -->
-								<th><a target="_blank" style="color:#777777;">徐凯</a></th>
-								<th><a target="_blank" style="color:#777777;">朱鹏飞</a></th>
-							</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">林迪(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">郭裕兰</a></th>
+									<th><a target="_blank" style="color:#777777;">徐凯</a></th>
+									<th><a target="_blank" style="color:#777777;">朱鹏飞</a></th>
+								</tr>
 
-							<tr>
-								<th class="th_school">天津大学</th>
-								<th class="th_school">国防科技大学</th>
-								<!-- <th class="th_school">上海交通大学</th> -->
-								<th class="th_school">国防科技大学</th>
-								<th class="th_school">天津大学</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">天津大学</th>
+									<th class="th_school">国防科技大学</th>
+									<th class="th_school">国防科技大学</th>
+									<th class="th_school">天津大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:30px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="2"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+										<strong>论坛讲者</strong>（按姓氏拼音排序）
+									</th>
+								</tr>
+								<tr>
+									<th width="50%"><a href="#lindi"><img src="static/img/speaker/1-1.png"
+												height="150px" width="auto"></a></th>
+									<th width="50%"><a href="#guoyulan"><img src="static/img/speaker/1-2.png"
+												height="150px" width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">林迪(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">郭裕兰</a></th>
+								</tr>
+								<tr>
+									<th class="th_school">天津大学</th>
+									<th class="th_school">国防科技大学</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-20px 0 0 5%;">
+							<tbody>
+								<tr>
+									<th colspan="2"
+										style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
+									</th>
+								</tr>
+								<tr>
+									<th width="50%"><a href="#xukai"><img src="static/img/speaker/1-6.png"
+												height="150px" width="auto"></a></th>
+									<th width="50%"><a href="#zhupengfei"><img src="static/img/speaker/1-4.png"
+												height="150px" width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">徐凯</a></th>
+									<th><a target="_blank" style="color:#777777;">朱鹏飞</a></th>
+								</tr>
+								<tr>
+									<th class="th_school">国防科技大学</th>
+									<th class="th_school">天津大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -733,10 +985,11 @@
 							并探讨相关技术交叉融合和产业应用趋势。</p>
 					</div>
 					<hr width="90%" color="#f3e549" size="0.5" style="margin:10px 5% 30px 5%;">
-					<ul id="lindi" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="lindi" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：林迪</li>
-						<li style="font-size: 13pt; line-height:31px; text-align:justify;">
-							<strong>个人简介</strong>：林迪，天津大学副教授。2016年于香港中文大学获博士学位，2020年入选天津大学英才副教授系列。主要研究方向是二维、三维场景语义理解，目前于TPAMI/CVPR/ICCV/ECCV/NeurIPS/ICML/Siggraph等计算机视觉、图形学和机器学习顶级会议和期刊上发表论文30余篇，相关研究成果获互联网+天津市金奖、COCO全景分割竞赛季军。目前担任中国图象图形学学会智能图形专委会委员，图形学国际会议CGI程序委员会委员。构建了首个基于笔触的弱监督语义分割数据集PASCAL-Scribble以及用于多属性复杂天气情况识别数据集MWD。
+						<li style="font-size: 13pt; line-height:31px; text-align:left;">
+							<strong>个人简介</strong>：林迪，天津大学副教授。2016年于香港中文大学获博士学位，2020年入选天津大学英才副教授系列。主要研究方向是二维、三维场景语义理解，目前于TPAMI/CVPR/ICCV/ECCV/
+							NeurIPS/ICML/Siggraph等计算机视觉、图形学和机器学习顶级会议和期刊上发表论文30余篇，相关研究成果获互联网+天津市金奖、COCO全景分割竞赛季军。目前担任中国图象图形学学会智能图形专委会委员，图形学国际会议CGI程序委员会委员。构建了首个基于笔触的弱监督语义分割数据集PASCAL-Scribble以及用于多属性复杂天气情况识别数据集MWD。
 						</li>
 						<li style="font-size: 13pt; line-height:40px;  word-wrap:break-word;text-align:left; ">
 							<strong>个人邮箱</strong>： <a>di.lin@tju.edu.cn</a>
@@ -832,42 +1085,92 @@
 					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
 						<strong>论坛讲者（按姓氏拼音排序）</strong>
 					</p>
-					<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-						<tbody>
-							<tr>
-								<th width="16.6%"><a href="#hexiaowei"><img src="static/img/speaker/3-1.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#liutiantian"><img src="static/img/speaker/3-2.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#renbo"><img src="static/img/speaker/3-3.png" height="150px"
-											width="auto"></a></th>
-								<th width="16.6%"><a href="#tangmin"><img src="static/img/speaker/3-4.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#xuweiwei"><img src="static/img/speaker/3-5.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#zhufei"><img src="static/img/speaker/3-6.png" height="150px"
-											width="auto"></a></th>
-							</tr>
-							<tr>
-								<th><a target="_blank" style="color:#777777;">何小伟(论坛主席)</a></th>
-								<th><a target="_blank" style="color:#777777;">刘天添</a></th>
-								<th><a target="_blank" style="color:#777777;">任博</a></th>
-								<th><a target="_blank" style="color:#777777;">唐敏</a></th>
-								<th><a target="_blank" style="color:#777777;">许威威</a></th>
-								<th><a target="_blank" style="color:#777777;">朱飞</a></th>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="16.6%"><a href="#hexiaowei"><img src="static/img/speaker/3-1.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#liutiantian"><img src="static/img/speaker/3-2.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#renbo"><img src="static/img/speaker/3-3.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#tangmin"><img src="static/img/speaker/3-4.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#xuweiwei"><img src="static/img/speaker/3-5.png"
+												height="150px" width="auto"></a></th>
+									<th width="16.6%"><a href="#zhufei"><img src="static/img/speaker/3-6.png"
+												height="150px" width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">何小伟(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">刘天添</a></th>
+									<th><a target="_blank" style="color:#777777;">任博</a></th>
+									<th><a target="_blank" style="color:#777777;">唐敏</a></th>
+									<th><a target="_blank" style="color:#777777;">许威威</a></th>
+									<th><a target="_blank" style="color:#777777;">朱飞</a></th>
 
-							</tr>
+								</tr>
 
-							<tr>
-								<th class="th_school">中科院软件所</th>
-								<th class="th_school">太极图形</th>
-								<th class="th_school">南开大学</th>
-								<th class="th_school">浙江大学</th>
-								<th class="th_school">浙江大学</th>
-								<th class="th_school">北京大学</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">中科院软件所</th>
+									<th class="th_school">太极图形</th>
+									<th class="th_school">南开大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">北京大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="33.3%"><a href="#hexiaowei"><img src="static/img/speaker/3-1.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#liutiantian"><img src="static/img/speaker/3-2.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#renbo"><img src="static/img/speaker/3-3.png"
+												height="130px" width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">何小伟(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">刘天添</a></th>
+									<th><a target="_blank" style="color:#777777;">任博</a></th>
+								</tr>
+								<tr>
+									<th class="th_school">中科院软件所</th>
+									<th class="th_school">太极图形</th>
+									<th class="th_school">南开大学</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="33.3%"><a href="#tangmin"><img src="static/img/speaker/3-4.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#xuweiwei"><img src="static/img/speaker/3-5.png"
+												height="130px" width="auto"></a></th>
+									<th width="33.3%"><a href="#zhufei"><img src="static/img/speaker/3-6.png"
+												height="130px" width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">唐敏</a></th>
+									<th><a target="_blank" style="color:#777777;">许威威</a></th>
+									<th><a target="_blank" style="color:#777777;">朱飞</a></th>
+								</tr>
+								<tr>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">北京大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -996,47 +1299,108 @@
 					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
 						<strong>论坛讲者（按姓氏拼音排序）</strong>
 					</p>
-					<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-						<tbody>
-							<tr>
-								<th width="16.6%"><a href="#c-hanxiaoguang"><img
-											src="static/img/speaker/cxqh/hanxiaoguang.jpg" height="150px"
-											width="auto"></a></th>
-								<th width="16.6%"><a href="#c-chensiming"><img
-											src="static/img/speaker/cxqh/chensiming.png" height="150px"
-											width="auto"></a></th>
-								<th width="16.6%"><a href="#c-liutiantian"><img
-											src="static/img/speaker/cxqh/liutiantian.png" height="150px"
-											width="auto"></a></th>
-								<th width="16.6%"><a href="#c-liuzipeng"><img
-											src="static/img/speaker/cxqh/liuzipeng.png" height="150px" width="auto"></a>
-								</th>
-								<th width="16.6%"><a href="#c-pengsida"><img src="static/img/speaker/cxqh/pengsida.png"
-											height="150px" width="auto"></a></th>
-								<th width="16.6%"><a href="#c-ruanliangwang"><img
-											src="static/img/speaker/cxqh/ruanliangwang.png" height="150px"
-											width="auto"></a></th>
-							</tr>
-							<tr>
-								<th><a target="_blank" style="color:#777777;">韩晓光（论坛主席）</a></th>
-								<th><a target="_blank" style="color:#777777;">陈思明（论坛主席）</a></th>
-								<th><a target="_blank" style="color:#777777;">刘天添（论坛主席）</a></th>
-								<th><a target="_blank" style="color:#777777;">刘子鹏</a></th>
-								<th><a target="_blank" style="color:#777777;">彭思达</a></th>
-								<th><a target="_blank" style="color:#777777;">阮良旺</a></th>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="16.6%"><a href="#c-hanxiaoguang"><img
+												src="static/img/speaker/cxqh/hanxiaoguang.jpg" height="150px"
+												width="auto"></a></th>
+									<th width="16.6%"><a href="#c-chensiming"><img
+												src="static/img/speaker/cxqh/chensiming.png" height="150px"
+												width="auto"></a></th>
+									<th width="16.6%"><a href="#c-liutiantian"><img
+												src="static/img/speaker/cxqh/liutiantian.png" height="150px"
+												width="auto"></a></th>
+									<th width="16.6%"><a href="#c-liuzipeng"><img
+												src="static/img/speaker/cxqh/liuzipeng.png" height="150px"
+												width="auto"></a>
+									</th>
+									<th width="16.6%"><a href="#c-pengsida"><img
+												src="static/img/speaker/cxqh/pengsida.png" height="150px"
+												width="auto"></a></th>
+									<th width="16.6%"><a href="#c-ruanliangwang"><img
+												src="static/img/speaker/cxqh/ruanliangwang.png" height="150px"
+												width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">韩晓光（论坛主席）</a></th>
+									<th><a target="_blank" style="color:#777777;">陈思明（论坛主席）</a></th>
+									<th><a target="_blank" style="color:#777777;">刘天添（论坛主席）</a></th>
+									<th><a target="_blank" style="color:#777777;">刘子鹏</a></th>
+									<th><a target="_blank" style="color:#777777;">彭思达</a></th>
+									<th><a target="_blank" style="color:#777777;">阮良旺</a></th>
 
-							</tr>
+								</tr>
 
-							<tr>
-								<th class="th_school">香港中文大学(深圳)</th>
-								<th class="th_school">复旦大学</th>
-								<th class="th_school">太极图形</th>
-								<th class="th_school">北京航空航天大学</th>
-								<th class="th_school">浙江大学</th>
-								<th class="th_school">北京大学</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">香港中文大学(深圳)</th>
+									<th class="th_school">复旦大学</th>
+									<th class="th_school">太极图形</th>
+									<th class="th_school">北京航空航天大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">北京大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="33.3%"><a href="#c-hanxiaoguang"><img
+												src="static/img/speaker/cxqh/hanxiaoguang.jpg" height="130px"
+												width="auto"></a></th>
+									<th width="33.3%"><a href="#c-chensiming"><img
+												src="static/img/speaker/cxqh/chensiming.png" height="130px"
+												width="auto"></a></th>
+									<th width="33.3%"><a href="#c-liutiantian"><img
+												src="static/img/speaker/cxqh/liutiantian.png" height="130px"
+												width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">韩晓光(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">陈思明(论坛主席)</a></th>
+									<th><a target="_blank" style="color:#777777;">刘天添(论坛主席)</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">香港中文大学(深圳)</th>
+									<th class="th_school">复旦大学</th>
+									<th class="th_school">太极图形</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="33.3%"><a href="#c-liuzipeng"><img
+												src="static/img/speaker/cxqh/liuzipeng.png" height="130px"
+												width="auto"></a>
+									</th>
+									<th width="33.3%"><a href="#c-pengsida"><img
+												src="static/img/speaker/cxqh/pengsida.png" height="130px"
+												width="auto"></a></th>
+									<th width="33.3%"><a href="#c-ruanliangwang"><img
+												src="static/img/speaker/cxqh/ruanliangwang.png" height="130px"
+												width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">刘子鹏</a></th>
+									<th><a target="_blank" style="color:#777777;">彭思达</a></th>
+									<th><a target="_blank" style="color:#777777;">阮良旺</a></th>
+
+								</tr>
+								<tr>
+									<th class="th_school">北京航空航天大学</th>
+									<th class="th_school">浙江大学</th>
+									<th class="th_school">北京大学</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -1048,12 +1412,12 @@
 					</div>
 					<!-- 老师 -->
 					<hr width="90%" color="#f3e549" size="0.5" style="margin:30px 5% 30px 5%;">
-					<ul id="c-hanxiaoguang" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="c-hanxiaoguang" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛主席</strong>：韩晓光</li>
 						<li style="font-size: 13pt; line-height:31px;">
 							<strong>个人简介</strong>：韩晓光，香港中文大学(深圳)理工学院与未来智联网络研究院助理教授，校长青年学者。他于2017年获得香港大学计算机科学专业博士学位。研究方向包括计算机视觉和计算机图形学等，在该方向著名国际期刊和会议发表论文50余篇，包括顶级会议和期刊SIGGRAPH(Asia),
-							CVPR, ICCV, ECCV, NeurIPS, ACM TOG, IEEE
-							TPAMI等。他获得2021年度吴文俊人工智能科学技术奖-优秀青年奖，他的工作还曾获得CCF图形开源数据集奖（DeepFashion3D），2019年和2020年连续两年入选计算机视觉顶级会议CVPR最佳论文列表（入选率分别为0.8%和0.4%)，IEEE
+							CVPR,ICCV,ECCV, NeurIPS,ACM TOG,IEEE
+							TPAMI等。他获得2021年度吴文俊人工智能科学技术奖-优秀青年奖,他还曾获得CCF图形开源数据集奖(DeepFashion3D),2019年和2020年连续两年入选计算机视觉顶级会议CVPR最佳论文列表（入选率分别为0.8%和0.4%)，IEEE
 							VR 2021 最佳论文荣誉提名, 计算机图形学顶级会议Siggraph Asia 2013新兴技术最佳演示奖。更多细节详见
 							<a href="https://gaplab.cuhk.edu.cn/">https://gaplab.cuhk.edu.cn/</a>
 						</li>
@@ -1106,7 +1470,7 @@
 						</li>
 					</ul>
 					<hr id="top" width="90%" color="#f3e549" size="8" style="margin:30px 5% 30px 5%;">
-					<ul id="c-ruanliangwang" style="margin:30px 5% 30px 5%;text-align:justify;">
+					<ul id="c-ruanliangwang" style="margin:30px 5% 30px 5%;text-align:left;">
 						<li style="font-size: 13pt; line-height:40px;"><strong>论坛讲者</strong>：阮良旺</li>
 						<li style="font-size: 13pt; line-height:31px;">
 							<strong>报告摘要</strong>：本次分享我将回顾一下我的第一篇SIG"Solid-Fluid Interaction with
@@ -1129,35 +1493,82 @@
 					<p style="font-size:16pt; text-align:center; color:#0e90d2; line-height:25px;">
 						<strong>论坛讲者（按姓氏拼音排序）</strong>
 					</p>
-					<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
-						<tbody>
-							<tr>
-								<th width="25%"><a href="#x-fanghao"><img src="static/img/speaker/xqlh/fanghao.png"
-											height="200px" width="auto"></a></th>
-								<th width="25%"><a href="#x-liangrui"><img src="static/img/speaker/xqlh/liangrui1.png"
-											height="200px" width="auto"></a></th>
-								<th width="25%"><a href="#x-shenjiangyang"><img
-											src="static/img/speaker/xqlh/shenjiangyang2.png" height="200px"
-											width="auto"></a></th>
-								<th width="25%"><a href="#x-wuhao"><img src="static/img/speaker/xqlh/wuhao1.png"
-											height="200px" width="auto"></a>
-								</th>
-							</tr>
-							<tr>
-								<th><a target="_blank" style="color:#777777;">方昊</a></th>
-								<th><a target="_blank" style="color:#777777;">梁锐</a></th>
-								<th><a target="_blank" style="color:#777777;">沈江洋</a></th>
-								<th><a target="_blank" style="color:#777777;">吴昊</a></th>
-							</tr>
+					<!-- 电脑版 -->
+					<div class="onlymobile">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="25%"><a href="#x-fanghao"><img src="static/img/speaker/xqlh/fanghao.png"
+												height="200px" width="auto"></a></th>
+									<th width="25%"><a href="#x-liangrui"><img
+												src="static/img/speaker/xqlh/liangrui1.png" height="200px"
+												width="auto"></a></th>
+									<th width="25%"><a href="#x-shenjiangyang"><img
+												src="static/img/speaker/xqlh/shenjiangyang2.png" height="200px"
+												width="auto"></a></th>
+									<th width="25%"><a href="#x-wuhao"><img src="static/img/speaker/xqlh/wuhao1.png"
+												height="200px" width="auto"></a>
+									</th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">方昊</a></th>
+									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
+									<th><a target="_blank" style="color:#777777;">沈江洋</a></th>
+									<th><a target="_blank" style="color:#777777;">吴昊</a></th>
+								</tr>
 
-							<tr>
-								<th class="th_school">其域创新</th>
-								<th class="th_school">中望软件</th>
-								<th class="th_school">相芯科技</th>
-								<th class="th_school">时谛智能</th>
-							</tr>
-						</tbody>
-					</table>
+								<tr>
+									<th class="th_school">其域创新</th>
+									<th class="th_school">中望软件</th>
+									<th class="th_school">相芯科技</th>
+									<th class="th_school">时谛智能</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+					<!-- 手机版 -->
+					<div class="onlywap">
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="50%"><a href="#x-fanghao"><img src="static/img/speaker/xqlh/fanghao.png"
+												height="130px" width="auto"></a></th>
+									<th width="50%"><a href="#x-liangrui"><img
+												src="static/img/speaker/xqlh/liangrui1.png" height="130px"
+												width="auto"></a></th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">方昊</a></th>
+									<th><a target="_blank" style="color:#777777;">梁锐</a></th>
+								</tr>
+								<tr>
+									<th class="th_school">其域创新</th>
+									<th class="th_school">中望软件</th>
+								</tr>
+							</tbody>
+						</table>
+						<table width="90%" style="margin:-13px 0 0 5%; table-layout: fixed;">
+							<tbody>
+								<tr>
+									<th width="50%"><a href="#x-shenjiangyang"><img
+												src="static/img/speaker/xqlh/shenjiangyang2.png" height="130px"
+												width="auto"></a></th>
+									<th width="50%"><a href="#x-wuhao"><img src="static/img/speaker/xqlh/wuhao1.png"
+												height="130px" width="auto"></a>
+									</th>
+								</tr>
+								<tr>
+									<th><a target="_blank" style="color:#777777;">沈江洋</a></th>
+									<th><a target="_blank" style="color:#777777;">吴昊</a></th>
+								</tr>
+
+								<tr>
+									<th class="th_school">相芯科技</th>
+									<th class="th_school">时谛智能</th>
+								</tr>
+							</tbody>
+						</table>
+					</div>
 					<p style="color:#0e90d2;font-size:16pt;margin:20px 5% 0 5%; text-align:center;">
 						<strong>论坛简介</strong>
 					</p>
@@ -1220,7 +1631,8 @@
 						</li>
 						<div style="height:5px"></div>
 						<li style="font-size: 13pt; line-height:31px;">
-							<strong>讲者简介</strong>：吴昊，时谛智能图形图像算法部门高级研究员，博士、研究生、本科分别毕业于香港大学、浙江大学和南京大学。主要负责时谛智能数字化扫描仪、FIM Studio、时尚趋势等系列产品的图像和视觉算法方面的研究。
+							<strong>讲者简介</strong>：吴昊，时谛智能图形图像算法部门高级研究员，博士、研究生、本科分别毕业于香港大学、浙江大学和南京大学。主要负责时谛智能数字化扫描仪、FIM
+							Studio、时尚趋势等系列产品的图像和视觉算法方面的研究。
 						</li>
 					</ul>
 				</div>

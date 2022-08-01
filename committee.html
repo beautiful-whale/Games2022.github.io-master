@@ -33,7 +33,29 @@
             list-style: none;
         }
 
-		#head-a:hover{color:#0e90d2;}
+        #head-a:hover {
+            color: #0e90d2;
+        }
+
+        .onlywap {
+            display: inline;
+        }
+
+        @media (min-width: 950px) {
+            .onlywap {
+                display: none;
+            }
+        }
+
+        .onlymobile {
+            display: none;
+        }
+
+        @media (min-width: 950px) {
+            .onlymobile {
+                display: inline;
+            }
+        }
     </style>
 
 
@@ -152,8 +174,7 @@
                     <hr style="margin:30px 5% 30px 5%;">
                     <ul class="ul_style">
                         <li>主办单位：<a href="https://www.ccf.org.cn/" target="_blank">中国计算机学会</a></li>
-                        <li>承办单位：<a href="http://tc.ccf.org.cn/tccad/"
-                                target="_blank">中国计算机学会CAD&CG专委会</a><br>
+                        <li>承办单位：<a href="http://tc.ccf.org.cn/tccad/" target="_blank">中国计算机学会CAD&CG专委会</a><br>
                             &emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp; <a href="http://cse.csu.edu.cn/"
                                 target="_blank">中南大学</a></li>
                 </div>
@@ -166,17 +187,17 @@
                     <table style="margin:0px 0% 0 0%;table-layout: fixed;">
                         <tbody>
                             <tr>
-                                <th style="width:180px" >
+                                <th style="width:180px">
                                     <a href="http://bioinformatics.csu.edu.cn/JXWang/index-cn.html" target="_blank">
-                                        <img   src="./static/img/wangjianxin.png " height="180px">
+                                        <img src="./static/img/wangjianxin.png " height="180px">
                                     </a>
                                 </th>
                                 <th style="width:180px">
                                     <a href="https://person.zju.edu.cn/kunzhou/" target="_blank">
-                                        <img   src="./static/img/zhoukun.png" height="180px" >
+                                        <img src="./static/img/zhoukun.png" height="180px">
                                     </a>
                                 </th>
-                                
+
                             </tr>
 
                             <tr>
@@ -205,20 +226,20 @@
                     </table>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
 
                 <div style="margin:0 auto; width:90%">
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">程序委员会主席</span></h2>
                     <div class="heading_border"></div>
-                    
+
                     <table style="margin:0px 0% 0px 0%;table-layout: fixed;">
                         <tbody>
                             <tr>
                                 <th style="width:180px; float: left;">
                                     <a href="https://www.xiajiazhi.com/index-cn.html" target="_blank">
-                                        <img   src="./static/img/xiajiazhi.png" height="180px">
+                                        <img src="./static/img/xiajiazhi.png" height="180px">
                                     </a>
                                 </th>
                             </tr>
@@ -241,80 +262,145 @@
                     </table>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
 
                 <div style="margin:0 auto; width:90%">
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">组织委员会主席</span></h2>
                     <div class="heading_border"></div>
-                    
-                    <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
-                        <tbody>
-                            <tr>
-                                <th style="width:180px">
-                                    <a href="http://faculty.csu.edu.cn/liushengjun/zh_CN/" target="_blank">
-                                        <img   src="./static/img/liushengjun.png" height="180px">
-                                    </a>
-                                </th>
-                                <th style="width:180px">
-                                    <a href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">
-                                        <img   src="./static/img/zhaoying.jpg" height="180px">
-                                    </a>
-                                </th>
-                                <th style="width:180px">
-                                    <img   src="./static/img/zhangchao.jpg" height="180px">
-                                </th>
-                            </tr>
+                    <!-- 电脑版 -->
+                    <div class="onlymobile">
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <a href="http://faculty.csu.edu.cn/liushengjun/zh_CN/" target="_blank">
+                                            <img src="./static/img/liushengjun.png" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <a href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">
+                                            <img src="./static/img/zhaoying.jpg" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <img src="./static/img/zhangchao.jpg" height="180px">
+                                    </th>
+                                </tr>
 
-                            <tr>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="http://faculty.csu.edu.cn/liushengjun/zh_CN/"
-                                            target="_blank">刘圣军</a></p>
-                                </th>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">赵颖</a></p>
-                                </th>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a>张潮</a>
-                                    </p>
-                                </th>
-                            </tr>
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://faculty.csu.edu.cn/liushengjun/zh_CN/"
+                                                target="_blank">刘圣军</a></p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">赵颖</a></p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a>张潮</a>
+                                        </p>
+                                    </th>
+                                </tr>
 
-                            <tr style="font-weight:normal">
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">中南大学</p>
-                                </th>
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">中南大学</p>
-                                </th>
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">中南大学</p>
-                                </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 手机版 -->
+                    <div class="onlywap">
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <a href="http://faculty.csu.edu.cn/liushengjun/zh_CN/" target="_blank">
+                                            <img src="./static/img/liushengjun.png" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <a href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">
+                                            <img src="./static/img/zhaoying.jpg" height="180px">
+                                        </a>
+                                    </th>
+                                </tr>
+
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://faculty.csu.edu.cn/liushengjun/zh_CN/"
+                                                target="_blank">刘圣军</a></p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://faculty.csu.edu.cn/zhaoying/" target="_blank">赵颖</a></p>
+                                    </th>
+                                </tr>
+
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <img src="./static/img/zhangchao.jpg" height="180px">
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a>张潮</a>
+                                        </p>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">中南大学</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
 
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
                 <div style="margin:0 auto; width:90%">
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">专题论坛主席</span></h2>
                     <div class="heading_border"></div>
-                    
+
                     <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
                         <tbody>
                             <tr>
                                 <th style=" width:180px; float: left;">
                                     <a target="_blank" href="https://informatics.xmu.edu.cn/info/1019/15296.htm">
-                                        <img   src="./static/img/guoshihui.png" height="180px">
+                                        <img src="./static/img/guoshihui.png" height="180px">
                                     </a>
                                 </th>
                             </tr>
@@ -337,25 +423,26 @@
                     </table>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
 
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
                 <div style="margin:0 auto; width:90%">
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">海报主席</span></h2>
                     <div class="heading_border"></div>
-                    
+
                     <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
                         <tbody>
                             <tr>
                                 <th style=" width:180px; float: left;">
                                     <a target="_blank" href="https://hpcds.gdut.edu.cn/info/1015/1107.htm">
-                                        <img   src="./static/img/mengmin.png" height="180px">
+                                        <img src="./static/img/mengmin.png" height="180px">
                                     </a>
                                 </th>
                                 <th style="width:180px">
-                                    <a href="https://faculty.sustech.edu.cn/?tagid=mayx&iscss=1&snapid=1" target="_blank">
-                                        <img   src="./static/img/mayuxin.png" height="180px">
+                                    <a href="https://faculty.sustech.edu.cn/?tagid=mayx&iscss=1&snapid=1"
+                                        target="_blank">
+                                        <img src="./static/img/mayuxin.png" height="180px">
                                     </a>
                                 </th>
                             </tr>
@@ -364,12 +451,14 @@
                                 <th style=" width:180px; float: left;">
                                     <br>
                                     <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="https://hpcds.gdut.edu.cn/info/1015/1107.htm" target="_blank">孟敏</a></p>
+                                            href="https://hpcds.gdut.edu.cn/info/1015/1107.htm" target="_blank">孟敏</a>
+                                    </p>
                                 </th>
                                 <th style="width:180px">
                                     <br>
                                     <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="https://faculty.sustech.edu.cn/?tagid=mayx&iscss=1&snapid=1" target="_blank"> 马昱欣</a></p>
+                                            href="https://faculty.sustech.edu.cn/?tagid=mayx&iscss=1&snapid=1"
+                                            target="_blank"> 马昱欣</a></p>
                                 </th>
                             </tr>
 
@@ -385,7 +474,7 @@
                     </table>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
 
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
@@ -393,84 +482,150 @@
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">
                             研究生培养论坛主席</span></h2>
                     <div class="heading_border"></div>
-                    
-                    <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
-                        <tbody>
-                            <tr>
-                                <th style="width:180px">
-                                    <a href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">
-                                        <img   src="./static/img/hanxiaoguang.png" height="180px">
-                                    </a>
-                                </th>
-                                <th style="width:180px">
-                                    <a href="https://tiantianliu.cn/" target="_blank">
-                                        <img   src="./static/img/liukaitian.png" height="180px">
-                                    </a>
-                                </th>
-                                <th style="width:180px">
-                                    <a href="http://simingchen.me/" target="_blank">
-                                        <img   src="./static/img/chensiming.png" height="180px">
-                                    </a>
-                                </th>
-                            </tr>
+                    <!-- 电脑版 -->
+                    <div class="onlymobile">
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <a href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">
+                                            <img src="./static/img/hanxiaoguang.png" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <a href="https://tiantianliu.cn/" target="_blank">
+                                            <img src="./static/img/liukaitian.png" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <a href="http://simingchen.me/" target="_blank">
+                                            <img src="./static/img/chensiming.png" height="180px">
+                                        </a>
+                                    </th>
+                                </tr>
 
-                            <tr>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">韩晓光</a>
-                                    </p>
-                                </th>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="https://tiantianliu.cn/" target="_blank"> 刘天添</a></p>
-                                </th>
-                                <th style="width:180px">
-                                    <br>
-                                    <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
-                                            href="http://simingchen.me/" target="_blank">陈思明</a>
-                                    </p>
-                                </th>
-                            </tr>
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">韩晓光</a>
+                                        </p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="https://tiantianliu.cn/" target="_blank"> 刘天添</a></p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://simingchen.me/" target="_blank">陈思明</a>
+                                        </p>
+                                    </th>
+                                </tr>
 
-                            <tr style="font-weight:normal">
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">香港中文大学（深圳）</p>
-                                </th>
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">微软亚洲研究院</p>
-                                </th>
-                                <th style="width:180px">
-                                    <p style="font-size:13px;color:#777777;">复旦大学</p>
-                                </th>
-                            </tr>
-                        </tbody>
-                    </table>
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">香港中文大学（深圳）</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">微软亚洲研究院</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">复旦大学</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- 手机版 -->
+                    <div class="onlywap">
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <a href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">
+                                            <img src="./static/img/hanxiaoguang.png" height="180px">
+                                        </a>
+                                    </th>
+                                    <th style="width:180px">
+                                        <a href="https://tiantianliu.cn/" target="_blank">
+                                            <img src="./static/img/liukaitian.png" height="180px">
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="https://lhs.cuhk.edu.cn/teacher/272" target="_blank">韩晓光</a>
+                                        </p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="https://tiantianliu.cn/" target="_blank"> 刘天添</a></p>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">香港中文大学（深圳）</p>
+                                    </th>
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">微软亚洲研究院</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
+                            <tbody>
+                                <tr>
+                                    <th style="width:180px">
+                                        <a href="http://simingchen.me/" target="_blank">
+                                            <img src="./static/img/chensiming.png" height="180px">
+                                        </a>
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="width:180px">
+                                        <br>
+                                        <p style="font-size:15px;color:#1F9CE4;font-weight:normal;"><a
+                                                href="http://simingchen.me/" target="_blank">陈思明</a>
+                                        </p>
+                                    </th>
+                                </tr>
+                                <tr style="font-weight:normal">
+                                    <th style="width:180px">
+                                        <p style="font-size:13px;color:#777777;">复旦大学</p>
+                                    </th>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
 
                 <hr style="margin:10px 5% 10x 5%; height: 1px;">
                 <div style="margin:0 auto; width:90%">
                     <h2 style="font-size: 25px;"><span style="color:#2a90e4">竞赛主席</span></h2>
                     <div class="heading_border"></div>
-                    
+
                     <table style=" margin:0px 0% 0 0%;table-layout: fixed;">
                         <tbody>
                             <tr>
                                 <th style="width:180px">
                                     <a href="https://www.xzhou.me/" target="_blank">
-                                        <img   src="./static/img/zhouxiaowei.png " height="180px">
+                                        <img src="./static/img/zhouxiaowei.png " height="180px">
                                     </a>
                                 </th>
                                 <th style="width:180px">
                                     <a target="_blank">
-                                        <img   src="./static/img/fanghao.png" height="180px">
+                                        <img src="./static/img/fanghao.png" height="180px">
                                     </a>
                                 </th>
-                                
+
                             </tr>
 
                             <tr>
@@ -498,7 +653,7 @@
                     </table>
                     <div class="clearfix"></div>
                     <!--// clearfix-->
-                    
+
                 </div>
 
                 <div id="content">
