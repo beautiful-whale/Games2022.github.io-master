@@ -101,6 +101,9 @@
                     <a href="company.html" style="font-size: 13pt; line-height:30px; color:#434343;">赞助单位</a>
                 </li>
                 <li>
+                    <a href="detail.html" style="font-size: 13pt; line-height:30px; color:#434343;">防疫政策</a>
+                </li>
+                <li>
                     <a href="photo.html" style="font-size: 13pt; line-height:30px; color:#434343;">视频与照片</a>
                 </li>
 
@@ -115,7 +118,7 @@
                 <div class="span10" style="width: 1500px;">
                     <!-- responsive dropdown menu -->
                     <div class="js-jquery-dropdown-wrapper">
-                        <ul class="js-jquery-dropdown" style="font-size: 15pt; width: 1701px; margin-left: 160px">
+                        <ul class="js-jquery-dropdown" style="font-size: 15pt; width: 1745px; margin-left: 160px">
                             <li>
                                 <a id="head-a" href="home.html" style="color:#0e90d2">首页</a>
                             </li>
@@ -150,6 +153,9 @@
                                 <a id="head-a" href="company.html">赞助单位</a>
                             </li>
                             <li>
+                                <a id="head-a" href="detail.html">防疫政策</a>
+                            </li>
+                            <li>
                                 <a id="head-a" href="photo.html">视频与照片</a>
                             </li>
                         </ul>
@@ -177,7 +183,7 @@
                         <img src="static/img/Games2022_csu3.jpg" width="860px" height="auto" />
                         <img src="static/img/Games2022_csu4.jpg" width="860px" height="auto" />
                         <img src="static/img/Games2022_csu5.jpg" width="860px" height="auto" />
-                        <!-- <img src="static/img/Games2022_csu6.png" width="860px"  height="auto"/> -->
+                        <img src="static/img/Games2022_csu6.png" width="860px"  height="auto"/>
                     </div>
 
                     <!-- 小箭头 -->
@@ -194,7 +200,7 @@
                         <li class="circle" data-n="2"></li>
                         <li class="circle" data-n="3"></li>
                         <li class="circle" data-n="4"></li>
-                        <!-- <li class="circle" data-n="5"></li> -->
+                        <li class="circle" data-n="5"></li>
                     </ul>
                 </div>
                 <script>
@@ -222,7 +228,7 @@
                         // 为什么要加过渡? 因为切换到了最后一张假图时会将过渡去掉
                         oImgList.style.transition = "0.5s ease";
 
-                        if (index === 5) {
+                        if (index === 6) {
                             index = 0;
                             setTimeout(() => {
                                 oImgList.style.left = 0;
@@ -248,9 +254,9 @@
                         if (!lock) return;
                         index--;
                         if (index === -1) {
-                            oImgList.style.left = 5 * -offset + "px";
+                            oImgList.style.left = 6 * -offset + "px";
                             oImgList.style.transition = "none";
-                            index = 4;
+                            index = 5;
                             setTimeout(() => {
                                 oImgList.style.left = index * -offset + "px";
                                 oImgList.style.transition = "0.5s ease";
@@ -332,7 +338,7 @@
 
                     <ul style="margin:15px 5% 0px 5%; font-size: 18px;">
                         <li style="margin-bottom: 8px;">
-                            <a>2022.08.04</a>：发布<a href="keynotes.html#tybg3">特邀报告3：深度几何学习的探索与计图框架</a>
+                            <a>2022.08.04</a>：发布<a href="keynotes.html#tybg2">特邀报告2：图像自适应感知与智能图形</a>
                         </li>
                         <li style="margin-bottom: 8px;">
                             <a>2022.08.04</a>：发布<a href="https://games.xgrids.cloud/#/">大会赛事：“其域创新杯” 高精度三维重建挑战赛</a>
@@ -347,7 +353,7 @@
                             <a>2022.08.01</a>：发布<a href="panels.html#cxqh">晨星启航：研究生学术成长论坛</a>
                         </li>
                         <li style="margin-bottom: 8px;">
-                            <a>2022.07.29</a>：发布<a href="keynotes.html#tybg1">特邀报告1：图像自适应感知与智能图形</a>
+                            <a>2022.07.29</a>：发布<a href="keynotes.html#tybg1">特邀报告1：深度几何学习的探索与计图框架</a>
                         </li>
                         <li style="margin-bottom: 8px;">
                             <a>2022.07.26</a>：发布<a href="detail.html">疫情防控说明（请参会人员认真阅读）</a>
@@ -474,7 +480,7 @@
                                     <tr>
                                         <th style="width:300px">
                                             <a href="company.html#qiyu" target="_blank">
-                                                <img src="static/img/qiyu.png " height="50px">
+                                                <img src="static/img/qiyu.png " height="120px">
                                             </a>
                                         </th>
 
@@ -491,12 +497,12 @@
                                     <tr>
                                         <th style="width:50%">
                                             <a href="company.html#xiangxin" target="_blank">
-                                                <img src="static/img/xiangxin.png " height="60px">
+                                                <img src="static/img/xiangxin.png " height="50px">
                                             </a>
                                         </th>
                                         <th style="width:50%">
                                             <a href="company.html#zhongwang" target="_blank">
-                                                <img src="static/img/zhongwang.png " height="60px">
+                                                <img src="static/img/zhongwang.png " height="50px">
                                             </a>
                                         </th>
                                     </tr>
@@ -504,12 +510,12 @@
                                     <tr>
                                         <th style="width:50%">
                                             <a href="company.html#buming" target="_blank">
-                                                <img src="static/img/buming.png " height="60px">
+                                                <img src="static/img/buming.png " height="50px">
                                             </a>
                                         </th>
                                         <th style="width:50%">
                                             <a href="company.html#unreal" target="_blank">
-                                                <img src="static/img/unreal.png " height="60px">
+                                                <img src="static/img/unreal.png " height="50px">
                                             </a>
                                         </th>
 
@@ -526,7 +532,7 @@
                                     <tr>
                                         <th style="width:250px">
                                             <a href="company.html#yunjing" target="_blank">
-                                                <img src="static/img/yunjing.png " height="80px">
+                                                <img src="static/img/yunjing.png " height="70px">
                                             </a>
                                         </th>
 
@@ -547,18 +553,18 @@
                         <br>
                         <div style="margin:0 auto; width:90%">
                             <h4>金牌赞助</h4>
-                            <table style="margin:-30px 0% -30px 0%;table-layout: fixed;">
+                            <table style="margin:-30px 0% -30px 0%;table-layout: fixed">
                                 <tbody>
 
                                     <tr>
                                         <th style="width:50%">
                                             <a href="company.html#buming" target="_blank">
-                                                <img src="static/img/shidi.png " height="80px">
+                                                <img src="static/img/shidi.png " height="70px">
                                             </a>
                                         </th>
                                         <th style="width:50%">
                                             <a href="company.html#hanbo" target="_blank">
-                                                <img src="static/img/hanbo.png " height="80px">
+                                                <img src="static/img/hanbo.png " height="70px">
                                             </a>
                                         </th>
 
